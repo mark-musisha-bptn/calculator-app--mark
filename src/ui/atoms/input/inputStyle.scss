@@ -1,0 +1,10 @@
+.active-btns {
+  background: maroon !important;
+  &:hover {
+    background-color: rgb(148, 3, 3) !important;
+  }
+
+  &:active {
+    box-shadow: 0 0.2rem 0.3rem rgba(34, 1, 1, 0.24);
+  }
+}

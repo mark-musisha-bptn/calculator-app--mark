@@ -1,0 +1,24 @@
+.calculator-keyboard__keys-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  .calculator-keyboard__key {
+    background: #888fa1;
+    color: #fff;
+    width: 8rem;
+    height: 4.5rem;
+    margin: 1rem 0.6rem;
+    font-size: 2.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem 1rem 1.8rem 1.8rem;
+    outline: none;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .clear-btn {
+    background-color: maroon;
+  }
+}

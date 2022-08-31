@@ -1,9 +1,18 @@
-import { FC } from "react";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Stack } from './global/utils/utils';
+import { Home } from './pages/home/Home';
+import { NotFound } from './pages/notFound/NotFound';
 
-export const App:FC = () => {
+const Stacked = new Stack();
+
+export const App = () => {
   return (
-    <div >
-      calculator app
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};

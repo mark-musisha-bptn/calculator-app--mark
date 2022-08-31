@@ -1,0 +1,23 @@
+.calculator-screen {
+  font-family: 'Orbitron';
+  text-align: right;
+  padding-bottom: 1rem;
+  font-size: 4.5rem;
+  margin: 0.5rem 0.8rem 1rem 0.8rem;
+  background-color: #b2c2b3;
+
+  &__input {
+    font-family: 'Orbitron';
+    background-color: #b2c2b3;
+    height: 44px;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 3rem;
+  }
+
+  .answer-value {
+    text-align: right;
+  }
+}

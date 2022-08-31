@@ -1,0 +1,15 @@
+.calculator-keyboard__function-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  .function-btn {
+    color: #fff;
+    background: #202742;
+    width: 6.11rem;
+    margin: 1.4rem 0.8rem;
+    border-radius: 1.1rem;
+    font-size: 1.3rem;
+    height: 4.1rem;
+    border: none;
+  }
+}
